@@ -27,19 +27,20 @@ return {
       lualine_x = {'fileformat', 'filetype'},
       lualine_y = {'progress'},
       lualine_z = {}
-  },
-  inactive_sections = {
-    lualine_a = {},
-    lualine_b = {},
-    lualine_c = {'filename'},
-    lualine_x = {'location'},
-    lualine_y = {},
-    lualine_z = {}
-  },
-  tabline = {},
-  winbar = {},
-  inactive_winbar = {},
-  extensions = {}
-  },
+    },
+    inactive_sections = {
+      lualine_a = {},
+      lualine_b = {},
+      lualine_c = {},
+      lualine_x = {},
+      lualine_y = {},
+      lualine_z = {}
+    },
+
+    tabline = {},
+    winbar = {},
+    inactive_winbar = {},
+    extensions = {}
+    },
     dependencies = { 'nvim-tree/nvim-web-devicons' }
 }
